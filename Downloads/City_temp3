@@ -1,10 +1,7 @@
 package tie.hackathon.travelguide.destinations.description;
 
-/**
- * Created by niranjanb on 15/05/17.
- */
 
-public interface City_temp3 {
+public interface FinalCityInfoView {
     void onPause();
     void onResume();
     void onStart();
