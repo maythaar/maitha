@@ -16,15 +16,15 @@ import okhttp3.Response;
  * Created by niranjanb on 15/05/17.
  */
 
-public class FinalCityInfoPresenter {
-    FinalCityInfoView mFinalCityInfoView;
+public class city_temp2 {
+    City_temp3 mFinalCityInfoView;
     OkHttpClient mOkHttpClient;
 
-    public FinalCityInfoPresenter() {
+    public city_temp2() {
         mOkHttpClient = new OkHttpClient();
     }
 
-    public void attachView(FinalCityInfoView finalCityInfoView) {
+    public void attachView(City_temp3 finalCityInfoView) {
         mFinalCityInfoView = finalCityInfoView;
     }
 
