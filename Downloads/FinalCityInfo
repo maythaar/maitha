@@ -26,7 +26,7 @@ import tie.hackathon.travelguide.destinations.funfacts.FunFacts;
 /**
  * Fetch city information for given city id
  */
-public class city_temp extends AppCompatActivity implements View.OnClickListener, City_temp3 {
+public class FinalCityInfo extends AppCompatActivity implements View.OnClickListener, FinalCityInfoView {
 
     private Intent intent;
     private TextView mFunFactsTextView;
