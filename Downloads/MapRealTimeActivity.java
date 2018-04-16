@@ -94,7 +94,7 @@ public class MapRealTimeActivity extends AppCompatActivity{
 
         sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
 
-        sorcelat    = sharedPreferences.getString(Constants.SOURCE_CITY_LAT, Constants.DELHI_LAT);
+        sorcelat    = sharedPreferences.getString(Constants.SOURCE_CITY_LAT, Constants.Riyadh_LAT);
         sorcelon    = sharedPreferences.getString(Constants.SOURCE_CITY_LON, Constants.DELHI_LON);
         deslat      = sharedPreferences.getString(Constants.DESTINATION_CITY_LAT, Constants.MUMBAI_LAT);
         deslon      = sharedPreferences.getString(Constants.DESTINATION_CITY_LON, Constants.MUMBAI_LON);
