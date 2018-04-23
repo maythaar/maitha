@@ -20,18 +20,9 @@
     tools:context=".MainActivity" >
 
     <item android:id="@+id/test_notification"
-        android:title="@string/action_test_notification"
+        android:title="notification"
         android:orderInCategory="100"
         app:showAsAction="never" />
 
-    <item android:id="@+id/test_microapp"
-        android:title="@string/action_test_microapp"
-        android:orderInCategory="100"
-        app:showAsAction="never" />
-
-    <item android:id="@+id/test_toggle_geofence"
-        android:title="@string/action_test_toggle_geofence"
-        android:orderInCategory="100"
-        app:showAsAction="never" />
 
 </menu>
